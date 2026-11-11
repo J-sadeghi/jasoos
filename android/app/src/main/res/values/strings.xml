@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">جاسوس</string>
+    <string name="title_activity_main">جاسوس</string>
+    <string name="package_name">io.github.jsadeghi.jasoos</string>
+    <string name="custom_url_scheme">io.github.jsadeghi.jasoos</string>
+</resources>

@@ -1,0 +1,408 @@
+{
+  "label": "English",
+  "dir": "ltr",
+  "digits": false,
+  "title": "SPY",
+  "tagline": "One phone, one group, one traitor. Pass it around and check your role.",
+  "newGame": "New game",
+  "rules": "How to play",
+  "back": "← Back",
+  "home": "Home",
+  "rolesTitle": "Roles",
+  "flowTitle": "How a round works",
+  "flowText": "The phone goes around the group and everyone sees their own role. The secret word is shown only to those who should know it — the spy sees nothing. Then a timed discussion begins: the app draws who asks whom each turn. When time runs out, everyone votes for one person. If the spy is caught, they get one chance to guess the word.",
+  "setup": "Setup",
+  "playerCount": "Players",
+  "editNames": "Edit names",
+  "closeNames": "Done",
+  "resetNames": "Reset to default names",
+  "player": "Player",
+  "wordCategory": "Word categories",
+  "allCats": "All categories",
+  "catCountA": "words in",
+  "catCountB": "categories",
+  "discussTime": "Discussion time",
+  "minutes": "min",
+  "customTime": "Custom time",
+  "customHint": "1 to 30 minutes",
+  "specialRoles": "Special roles",
+  "jokerKnowsQ": "Should the Joker know the word?",
+  "jokerKnowsHelp": "Knowing it lets them blend into the discussion. Not knowing makes them play like a second spy.",
+  "jokerYes": "Knows the word",
+  "jokerNo": "Doesn't know",
+  "noteOk": "Special roles are only dealt while at least 2 citizens remain.",
+  "startDeal": "Start dealing roles",
+  "dealing": "Dealing roles",
+  "of": "of",
+  "passTo": "Pass the phone to",
+  "showRole": "Show my role",
+  "onlyYou": "For your eyes only",
+  "yourRole": "your role",
+  "secretWord": "Secret word",
+  "noWord": "No word for you",
+  "qqq": "? ? ?",
+  "nextSeen": "Got it, next player",
+  "startTalk": "Start discussion",
+  "discussRound": "Discussion",
+  "askTurn": "Whose turn",
+  "asksMid": "asks",
+  "asksEnd": "",
+  "nextDraw": "Draw again",
+  "vague": "Ask vaguely. Answer even more vaguely.",
+  "talking": "In discussion",
+  "paused": "Paused",
+  "timeUp": "Time's up",
+  "pause": "Pause",
+  "resume": "Resume",
+  "voteTime": "Time to vote",
+  "voting": "Vote",
+  "voteHelp": "Count together, then tap the accused.",
+  "accused": "accused",
+  "pickSomeone": "Pick someone first",
+  "confirmVote": "Confirm vote",
+  "timeOverNotice": "Discussion time is over.",
+  "sheriffNotice": "The Sheriff was immune — no one was ejected. Vote again.",
+  "spyCaught": "The spy was caught",
+  "guessQ": "what was the word?",
+  "guessHelp": "A correct guess wins it for the spy.",
+  "nextRound": "Next round",
+  "abandonQ": "Leave this game?",
+  "abandonHelp": "The roles and word for this round are cleared and you go back home.",
+  "keepPlaying": "Keep playing",
+  "installTitle": "Install Spy on your phone",
+  "installBody": "Runs fullscreen and works without internet.",
+  "iosHint": "Share button in Safari → \"Add to Home Screen\"",
+  "androidHint": "Browser menu → \"Add to Home screen\"",
+  "installBtn": "Install app",
+  "versionWord": "Version",
+  "res": {
+    "citizens": [
+      "Citizens win",
+      "The spy was caught and missed the word"
+    ],
+    "spyHidden": [
+      "The spy wins",
+      "Nobody figured it out"
+    ],
+    "spyGuessed": [
+      "The spy wins",
+      "Caught, but guessed the word"
+    ],
+    "saboteur": [
+      "The Saboteur wins",
+      "An innocent player was ejected"
+    ],
+    "joker": [
+      "The Joker wins",
+      "Convinced everyone they were the spy"
+    ],
+    "spyHiddenMany": [
+      "The spies win",
+      "Nobody figured it out"
+    ],
+    "spyGuessedMany": [
+      "The spies win",
+      "Caught, but guessed the word"
+    ],
+    "noSpyRight": [
+      "Citizens win",
+      "Right — there was no spy"
+    ],
+    "spyNoSpy": [
+      "The spy wins",
+      "Everyone thought there was no spy"
+    ],
+    "spyNoSpyMany": [
+      "The spies win",
+      "Everyone thought there was no spy"
+    ],
+    "nobody": [
+      "Nobody wins",
+      "There was no spy!"
+    ]
+  },
+  "roles": {
+    "citizen": [
+      "Citizen",
+      "Base role",
+      "You know the word. Speak so the others recognise you without handing it to the spy."
+    ],
+    "spy": [
+      "Spy",
+      "Base role",
+      "You don't know the word, not even its category. Work it out from the others and stay hidden."
+    ],
+    "detective": [
+      "Detective",
+      "Vote counts double",
+      "You know the word. Your vote counts twice."
+    ],
+    "saboteur": [
+      "Saboteur",
+      "Wins if an innocent is ejected",
+      "You know the word, but you win if an innocent citizen gets ejected."
+    ],
+    "sheriff": [
+      "Sheriff",
+      "Immune once",
+      "You know the word. The first time you are voted out you are immune, and the group votes again."
+    ],
+    "joker": [
+      "Joker",
+      "Wins if ejected",
+      "Your goal is to make everyone think you are the spy. If you get ejected, you are the only winner."
+    ]
+  },
+  "jokerDescKnows": "You know the word so you can talk naturally, but your goal is different: make everyone think you are the spy. If you get ejected, you are the only winner.",
+  "jokerDescBlind": "You don't know the word, and your only job is to convince everyone you are the spy. If you get ejected, you are the only winner.",
+  "cats": [
+    {
+      "name": "Places",
+      "words": [
+        "Hospital",
+        "Airport",
+        "Beach",
+        "Cinema",
+        "Train station",
+        "Zoo",
+        "Hotel",
+        "Submarine",
+        "Space station",
+        "Library",
+        "Barbershop",
+        "Market",
+        "Courtroom",
+        "Car wash",
+        "Bank",
+        "Water park",
+        "Cruise ship",
+        "Police station",
+        "Casino",
+        "Ski resort"
+      ]
+    },
+    {
+      "name": "Jobs",
+      "words": [
+        "Pilot",
+        "Teacher",
+        "Surgeon",
+        "Firefighter",
+        "Musician",
+        "Judge",
+        "Gardener",
+        "Journalist",
+        "Chef",
+        "Detective",
+        "Mechanic",
+        "Tailor",
+        "Architect",
+        "Taxi driver",
+        "Vet",
+        "Photographer",
+        "Museum guard",
+        "Translator",
+        "Fisherman",
+        "Baker"
+      ]
+    },
+    {
+      "name": "Food",
+      "words": [
+        "Pizza",
+        "Sushi",
+        "Pancakes",
+        "Ramen",
+        "Tacos",
+        "Roast chicken",
+        "Cheeseburger",
+        "Ice cream",
+        "Lasagne",
+        "Fish and chips",
+        "Curry",
+        "Pad thai",
+        "Croissant",
+        "Dumplings",
+        "Cheesecake",
+        "Paella"
+      ]
+    },
+    {
+      "name": "Movies & TV",
+      "words": [
+        "The Godfather",
+        "Jurassic Park",
+        "Titanic",
+        "The Matrix",
+        "Breaking Bad",
+        "Friends",
+        "Star Wars",
+        "Jaws",
+        "The Office",
+        "Stranger Things",
+        "Forrest Gump",
+        "Inception"
+      ]
+    },
+    {
+      "name": "Sports",
+      "words": [
+        "Football",
+        "Volleyball",
+        "Wrestling",
+        "Swimming",
+        "Marathon",
+        "Basketball",
+        "Skiing",
+        "Table tennis",
+        "Boxing",
+        "Weightlifting",
+        "Cycling",
+        "Archery",
+        "Gymnastics",
+        "Horse riding"
+      ]
+    },
+    {
+      "name": "Animals",
+      "words": [
+        "Cheetah",
+        "Camel",
+        "Dolphin",
+        "Eagle",
+        "Ant",
+        "Turtle",
+        "Bat",
+        "Wolf",
+        "Peacock",
+        "Shark",
+        "Honeybee",
+        "Fox",
+        "Penguin",
+        "Octopus"
+      ]
+    },
+    {
+      "name": "Around the house",
+      "words": [
+        "Fridge",
+        "Vacuum cleaner",
+        "Iron",
+        "Kettle",
+        "Mirror",
+        "Carpet",
+        "Sewing machine",
+        "Microwave",
+        "Fan",
+        "Wall clock",
+        "Night light",
+        "Wardrobe",
+        "Heater",
+        "Doormat"
+      ]
+    },
+    {
+      "name": "World cities",
+      "words": [
+        "Tokyo",
+        "Paris",
+        "Cairo",
+        "Istanbul",
+        "New York",
+        "Reykjavik",
+        "Rio de Janeiro",
+        "Sydney",
+        "Marrakesh",
+        "Venice",
+        "Bangkok",
+        "Lisbon",
+        "Nairobi",
+        "Toronto"
+      ]
+    },
+    {
+      "name": "Everyday objects",
+      "words": [
+        "Book",
+        "Phone",
+        "Keys",
+        "Umbrella",
+        "Glasses",
+        "Backpack",
+        "Pen",
+        "Wallet",
+        "Headphones",
+        "Charger",
+        "Scissors",
+        "Wristwatch",
+        "Notebook",
+        "Water bottle"
+      ]
+    },
+    {
+      "name": "Nature",
+      "words": [
+        "Waterfall",
+        "Desert",
+        "Forest",
+        "Mountain",
+        "Lake",
+        "Cave",
+        "River",
+        "Spring",
+        "Snow",
+        "Thunderstorm",
+        "Meadow",
+        "Swamp",
+        "Island",
+        "Volcano"
+      ]
+    },
+    {
+      "name": "Music",
+      "words": [
+        "Piano",
+        "Guitar",
+        "Concert",
+        "Violin",
+        "Drum kit",
+        "Choir",
+        "Orchestra",
+        "Saxophone",
+        "Vinyl record",
+        "Recording studio",
+        "Harmonica",
+        "Cello"
+      ]
+    },
+    {
+      "name": "Travel",
+      "words": [
+        "Suitcase",
+        "Passport",
+        "Beach hotel",
+        "Night train",
+        "Paper map",
+        "Boarding pass",
+        "Coach bus",
+        "Campsite",
+        "Visa",
+        "Toll booth",
+        "Terminal",
+        "Souvenir"
+      ]
+    }
+  ],
+  "spyCount": "Spies",
+  "tellSpies": "Tell players how many spies there are",
+  "tellSpiesHelp": "When on, the number of spies is shown on the role and discussion screens.",
+  "spiesInRound": "Spies in this round:",
+  "noSpy": "There is no spy",
+  "noteSkip": "With {players} players and {spies} spies, these roles are skipped: {roles}",
+  "noteSkipOne": "With {players} players and {spies} spy, these roles are skipped: {roles}",
+  "listSep": ", ",
+  "options": "Options",
+  "sound": "Sound when time is up",
+  "soundHelp": "When discussion time ends, a short sound plays and the phone vibrates.",
+  "flowText2": "You choose the number of spies in setup — from zero up to every player. So there may be no spy at all, or everyone may be a spy! Spies don't know who the other spies are. If \"Tell players how many spies there are\" is on, everyone sees the number; otherwise nobody knows it. When voting, instead of a player you can pick \"There is no spy\": if there really was none, the citizens win; if there was one, the spies win. If you eject someone and there was no spy, nobody wins (unless the Joker or the Saboteur wins)."
+}

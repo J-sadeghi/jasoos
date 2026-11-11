@@ -1,0 +1,8 @@
+{
+  "appId": "io.github.jsadeghi.jasoos",
+  "appName": "جاسوس",
+  "webDir": "dist",
+  "backgroundColor": "#F5EDE0",
+  "android": { "backgroundColor": "#F5EDE0" },
+  "ios": { "backgroundColor": "#F5EDE0", "contentInset": "never" }
+}
